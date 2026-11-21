@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 100,
+  "cookingtime": 200,
+  "ingredient": "trans_mod:raw_transium",
+  "result": {
+    "id": "trans_mod:transium"
+  }
+}

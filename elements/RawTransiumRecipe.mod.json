@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:RawTransium"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 100.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": "CUSTOM:RawTransium",
+    "smeltingReturnStack": "CUSTOM:Transium",
+    "name": "raw_transium_recipe",
+    "namespace": "mod"
+  }
+}

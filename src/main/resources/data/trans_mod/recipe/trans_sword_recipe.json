@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "trans_mod:transium",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "trans_mod:trans_sword",
+    "count": 1
+  }
+}

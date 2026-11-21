@@ -1,0 +1,308 @@
+{
+  "mod_elements": [
+    {
+      "name": "TransSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trans_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/trans_mod/models/item/trans_sword.json",
+          "src/main/java/net/bobert/transmod/item/TransSwordItem.java",
+          "src/main/resources/assets/trans_mod/items/trans_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "TransiumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/trans_mod/worldgen/configured_feature/transium_ore.json",
+          "src/main/resources/data/trans_mod/worldgen/placed_feature/transium_ore.json",
+          "src/main/resources/data/trans_mod/loot_table/blocks/transium_ore.json",
+          "src/main/resources/assets/trans_mod/models/block/transium_ore.json",
+          "src/main/java/net/bobert/transmod/block/TransiumOreBlock.java",
+          "src/main/resources/data/trans_mod/neoforge/biome_modifier/transium_ore_biome_modifier.json",
+          "src/main/resources/assets/trans_mod/items/transium_ore.json",
+          "src/main/resources/assets/trans_mod/blockstates/transium_ore.json",
+          "src/main/resources/assets/trans_mod/models/item/transium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Transium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/trans_mod/items/transium.json",
+          "src/main/resources/assets/trans_mod/models/item/transium.json",
+          "src/main/java/net/bobert/transmod/item/TransiumItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TransSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trans_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/trans_mod/recipe/trans_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TransPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trans_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/trans_mod/models/item/trans_pickaxe.json",
+          "src/main/java/net/bobert/transmod/item/TransPickaxeItem.java",
+          "src/main/resources/assets/trans_mod/items/trans_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "TransPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trans_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/trans_mod/recipe/trans_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockOfTransium",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_transium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bobert/transmod/block/BlockOfTransiumBlock.java",
+          "src/main/resources/data/trans_mod/loot_table/blocks/block_of_transium.json",
+          "src/main/resources/assets/trans_mod/items/block_of_transium.json",
+          "src/main/resources/assets/trans_mod/blockstates/block_of_transium.json",
+          "src/main/resources/assets/trans_mod/models/item/block_of_transium.json",
+          "src/main/resources/assets/trans_mod/models/block/block_of_transium.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockOfTransiumRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_transium_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/trans_mod/recipe/block_of_transium_recipe.json",
+          "src/main/resources/data/trans_mod/advancement/recipes/block_of_transium_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TransToolsCreativeTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trans_tools_creative_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "RawTransium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_transium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bobert/transmod/item/RawTransiumItem.java",
+          "src/main/resources/assets/trans_mod/items/raw_transium.json",
+          "src/main/resources/assets/trans_mod/models/item/raw_transium.json"
+        ]
+      }
+    },
+    {
+      "name": "RawTransiumRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_transium_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/trans_mod/advancement/recipes/raw_transium_recipe.json",
+          "src/main/resources/data/trans_mod/recipe/raw_transium_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EstrogenMobplayerCollidesBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "estrogen_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/bobert/transmod/procedures/EstrogenMobplayerCollidesBlockProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Estrogen",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "estrogen",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/trans_mod/blockstates/estrogen.json",
+          "src/main/resources/assets/trans_mod/models/block/estrogen.json",
+          "src/main/java/net/bobert/transmod/block/EstrogenBlock.java",
+          "src/main/java/net/bobert/transmod/item/EstrogenItem.java",
+          "src/main/java/net/bobert/transmod/fluid/types/EstrogenFluidType.java",
+          "src/main/resources/assets/trans_mod/items/estrogen_bucket.json",
+          "src/main/java/net/bobert/transmod/fluid/EstrogenFluid.java",
+          "src/main/java/net/bobert/transmod/client/fluid/EstrogenFluidExtension.java"
+        ]
+      }
+    },
+    {
+      "name": "TransDimension",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trans_dimension",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/trans_mod/blockstates/trans_dimension_portal.json",
+          "src/main/java/net/bobert/transmod/item/TransDimensionItem.java",
+          "src/main/resources/assets/trans_mod/models/block/trans_dimension_portal_ew.json",
+          "src/main/resources/assets/trans_mod/models/block/trans_dimension_portal_ns.json",
+          "src/main/java/net/bobert/transmod/world/teleporter/TransDimensionTeleporter.java",
+          "src/main/resources/assets/trans_mod/models/item/trans_dimension.json",
+          "src/main/resources/assets/trans_mod/items/trans_dimension.json",
+          "src/main/resources/data/trans_mod/dimension_type/trans_dimension.json",
+          "src/main/java/net/bobert/transmod/world/teleporter/TransDimensionPortalShape.java",
+          "src/main/resources/data/trans_mod/timeline/trans_dimension_effects.json",
+          "src/main/resources/data/trans_mod/dimension/trans_dimension.json",
+          "src/main/java/net/bobert/transmod/block/TransDimensionPortalBlock.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:swords": [
+      "~TransSword@CUSTOM:TransSword"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~TransiumOre@CUSTOM:TransiumOre",
+      "~BlockOfTransium@CUSTOM:BlockOfTransium"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~BlockOfTransium@CUSTOM:BlockOfTransium"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~TransPickaxe@CUSTOM:TransPickaxe"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~TransDimension@Blocks.BLUE_ICE"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~Estrogen@CUSTOM:Estrogen"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~TransiumOre@CUSTOM:TransiumOre"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.trans_tools.trans_sword": "Trans Sword",
+      "item.trans_tools.transium_ore": "Transium Ore",
+      "item.trans_tools.transium": "Transium",
+      "item.trans_tools.trans_pickaxe": "Trans Pickaxe",
+      "gui.trans_tools.test_gui_thing.button_meow": "meow",
+      "gui.trans_tools.test_gui_thing.button_return": "return",
+      "gui.trans_tools.test_gui_thing.label_hi_this_is_a_gui_thing": "hi this is a gui thing",
+      "item.trans_tools.gui_test_opener": "GUI Test Opener",
+      "item.trans_tools.block_of_transium": "Block Of Transium",
+      "item_group.trans_tools.trans_tools_creative_tab": "Trans Tools",
+      "item_group.trans_tools.bullshit": "Bullshit",
+      "item.trans_tools.raw_transium": "Raw Transium",
+      "item.trans_mod.trans_sword": "Trans Sword",
+      "item.trans_mod.transium_ore": "Transium Ore",
+      "item.trans_mod.transium": "Transium",
+      "item.trans_mod.trans_pickaxe": "Trans Pickaxe",
+      "item.trans_mod.block_of_transium": "Block Of Transium",
+      "item_group.trans_mod.trans_tools_creative_tab": "Trans Tools",
+      "item.trans_mod.raw_transium": "Raw Transium",
+      "block.trans_mod.estrogen": "Estrogen",
+      "fluid_type.trans_mod.estrogen": "Estrogen",
+      "fluid.trans_mod.estrogen": "Estrogen",
+      "item.trans_mod.estrogen_bucket": "Estrogen Bucket",
+      "item.trans_mod.trans_dimension": "Trans Dimension Portal Igniter"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/bobert/transmod/init/TransModModFluidTypes.java",
+      "src/main/java/net/bobert/transmod/init/TransModModFluids.java",
+      "src/main/java/net/bobert/transmod/init/TransModModBlocks.java",
+      "src/main/java/net/bobert/transmod/init/TransModModItems.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/bobert/transmod/init/TransModModTabs.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/bobert/transmod/TransModMod.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "trans_mod",
+    "modName": "Trans Mod",
+    "version": "0.1.0",
+    "description": "mod that adds trans tools and shit to minecraft :3 trans rights are human rights btw!",
+    "author": "Bobert8853",
+    "websiteURL": "https://x.com/_steph8853",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "modPicture": "modicon",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-26.1.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.bobert.transmod"
+  },
+  "mcreatorVersion": 202600233518
+}

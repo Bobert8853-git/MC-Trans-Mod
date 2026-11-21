@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Not specified"
+
+[[mods]]
+modId="trans_mod"
+version="0.1.0"
+displayName="Trans Mod"
+displayURL="https://x.com/_steph8853"
+logoFile="logo.png"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="Bobert8853"
+description="mod that adds trans tools and shit to minecraft :3 trans rights are human rights btw!"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.trans_mod]]
+    modId="neoforge"
+    type="required"
+    versionRange="[26.1.2.95,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.trans_mod]]
+    modId="minecraft"
+    type="required"
+    versionRange="[26.1.2]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

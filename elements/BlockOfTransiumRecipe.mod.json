@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:Transium"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:Transium",
+      "CUSTOM:Transium",
+      "CUSTOM:Transium",
+      "CUSTOM:Transium",
+      "CUSTOM:Transium",
+      "CUSTOM:Transium",
+      "CUSTOM:Transium",
+      "CUSTOM:Transium",
+      "CUSTOM:Transium"
+    ],
+    "recipeReturnStack": "CUSTOM:BlockOfTransium",
+    "name": "block_of_transium_recipe",
+    "namespace": "mod"
+  }
+}

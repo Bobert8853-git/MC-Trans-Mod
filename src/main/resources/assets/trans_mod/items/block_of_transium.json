@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "trans_mod:item/block_of_transium"
+  }
+}

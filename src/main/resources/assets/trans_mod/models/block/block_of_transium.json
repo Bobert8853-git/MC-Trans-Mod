@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "trans_mod:block/blockoftransiumtopbottomtexture",
+    "up": "trans_mod:block/blockoftransiumtopbottomtexture",
+    "north": "trans_mod:block/blockoftransiumfrontsidetexture",
+    "east": "trans_mod:block/blockoftransiumfrontsidetexture",
+    "south": "trans_mod:block/blockoftransiumfrontsidetexture",
+    "west": "trans_mod:block/blockoftransiumfrontsidetexture",
+    "particle": "trans_mod:block/blockoftransiumtopbottomtexture"
+  }
+}

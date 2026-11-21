@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "trans_mod:transium_ore",
+    "trans_mod:block_of_transium"
+  ]
+}
