@@ -8,4 +8,5 @@ this mod adds:
 * yeah
 
 # Requirements
-* just check the jar file in the releases/pre-releases
+* NeoForge 26.1.2
+* thats literally it
