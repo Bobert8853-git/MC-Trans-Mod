@@ -48,7 +48,7 @@
     "isWaterloggable": false,
     "hasBlockItem": true,
     "maxStackSize": 64,
-    "rarity": "EPIC",
+    "rarity": "UNCOMMON",
     "immuneToFire": false,
     "creativeTabs": [
       "DECORATIONS",

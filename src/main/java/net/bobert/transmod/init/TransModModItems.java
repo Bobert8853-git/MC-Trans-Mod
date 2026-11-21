@@ -35,7 +35,7 @@ public class TransModModItems {
 	public static final DeferredItem<Item> TRANS_DIMENSION;
 	static {
 		TRANS_SWORD = register("trans_sword", TransSwordItem::new);
-		TRANSIUM_ORE = block(TransModModBlocks.TRANSIUM_ORE, new Item.Properties().rarity(Rarity.EPIC));
+		TRANSIUM_ORE = block(TransModModBlocks.TRANSIUM_ORE, new Item.Properties().rarity(Rarity.UNCOMMON));
 		TRANSIUM = register("transium", TransiumItem::new);
 		TRANS_PICKAXE = register("trans_pickaxe", TransPickaxeItem::new);
 		BLOCK_OF_TRANSIUM = block(TransModModBlocks.BLOCK_OF_TRANSIUM);

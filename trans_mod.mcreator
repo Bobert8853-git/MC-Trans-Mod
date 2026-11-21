@@ -23,14 +23,14 @@
       "metadata": {
         "files": [
           "src/main/resources/data/trans_mod/worldgen/configured_feature/transium_ore.json",
-          "src/main/resources/data/trans_mod/worldgen/placed_feature/transium_ore.json",
-          "src/main/resources/data/trans_mod/loot_table/blocks/transium_ore.json",
-          "src/main/resources/assets/trans_mod/models/block/transium_ore.json",
-          "src/main/java/net/bobert/transmod/block/TransiumOreBlock.java",
           "src/main/resources/data/trans_mod/neoforge/biome_modifier/transium_ore_biome_modifier.json",
-          "src/main/resources/assets/trans_mod/items/transium_ore.json",
           "src/main/resources/assets/trans_mod/blockstates/transium_ore.json",
-          "src/main/resources/assets/trans_mod/models/item/transium_ore.json"
+          "src/main/resources/assets/trans_mod/models/block/transium_ore.json",
+          "src/main/resources/assets/trans_mod/models/item/transium_ore.json",
+          "src/main/java/net/bobert/transmod/block/TransiumOreBlock.java",
+          "src/main/resources/data/trans_mod/loot_table/blocks/transium_ore.json",
+          "src/main/resources/assets/trans_mod/items/transium_ore.json",
+          "src/main/resources/data/trans_mod/worldgen/placed_feature/transium_ore.json"
         ]
       }
     },
@@ -289,7 +289,7 @@
   "workspaceSettings": {
     "modid": "trans_mod",
     "modName": "Trans Mod",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "mod that adds trans tools and shit to minecraft :3 trans rights are human rights btw!",
     "author": "Bobert8853",
     "websiteURL": "https://x.com/_steph8853",
